@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: slategray;
+}
+.container{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vw;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+}
+
+.select-country img{
+    max-width: 1.5rem;
+}
+.select-country{
+    display: flex;
+    width: 6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    padding: 0.5rem;
+}
+
+.select-country select{
+    font-weight: 600;
+    width: auto;
+    cursor: pointer;
+    padding: 0.3rem;
+}
+
+.select-country select:hover{
+    background-color: slategray;
+    color: white;
+}
+
+.select-country select option{
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.msg{
+    margin: 3rem 0 2rem 0;
+}
+
+.msg p{
+    font-weight: 700;
+    color: #754E1A;
+    text-align: center;
+}
+
+form button{
+    padding: 0.5rem;
+    background-color: slategray;
+    color: white;
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.05rem;
+    cursor: pointer;
+}
