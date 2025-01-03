@@ -92,3 +92,12 @@ form button{
     font-size: 1.05rem;
     cursor: pointer;
 }
+
+@media screen and (max-width:1200px){
+    .container{
+        padding-top: 6rem;
+    }
+    h2{
+        text-align: center;
+    }
+}
